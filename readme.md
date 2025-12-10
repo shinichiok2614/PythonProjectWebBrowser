@@ -198,3 +198,55 @@ High AdBlock – 95% and no CPU lag
 Full uBlock clone – 99% nhưng code khá lớn
 
 Bạn chọn mức nào tôi viết code hoàn chỉnh cho bạn.
+
+[1download_manager.py](1download_manager.py)
+[1minibrowser.py](1minibrowser.py)
+
+pip install requests
+
+
+✅ Tính năng của phiên bản này
+
+Tabs, URL bar, title, Home
+
+AdBlock mạnh
+
+Dark Mode (toggle bằng nút, an toàn)
+
+Zoom toolbar
+
+Download Manager process riêng:
+
+Nhận URL + path
+
+Multi-thread download (tăng tốc)
+
+Gửi progress về MiniBrowser
+
+MiniBrowser hiển thị progress bar và thông báo khi hoàn tất
+
+Hoàn toàn được! Mình sẽ viết MiniBrowser phiên bản hoàn chỉnh với các tính năng bạn yêu cầu:
+
+Tabs
+
+Zoom (có lưu vào cấu hình cá nhân)
+
+Dark Mode (lưu trạng thái)
+
+Homepage (có thể lưu vào cấu hình)
+
+Bookmarks (tab quản lý riêng, thêm / sửa / xóa)
+
+Download Manager
+
+Hotkeys
+
+Cấu hình lưu trong file JSON
+
+Mình viết code chuẩn PyQt5, lưu trữ dữ liệu người dùng trong config.json trong cùng thư mục với ứng dụng. Đây là phiên bản hoàn chỉnh:
+
+✅ Tính năng bổ sung:
+
+Double-click một bookmark → mở URL trong tab mới.
+
+Vẫn giữ chức năng thêm / xóa bookmark.
